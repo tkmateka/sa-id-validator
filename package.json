@@ -1,6 +1,6 @@
 {
   "name": "@tk007/sa-id-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple TypeScript library to validate South African ID numbers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
