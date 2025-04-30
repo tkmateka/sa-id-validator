@@ -1,0 +1,29 @@
+# Ignore source code
+src/
+.github/
+src/assets/
+
+# Ignore config files
+tsconfig.json
+tsconfig.build.json
+tslint.json
+jest.config.js
+.eslintrc.js
+.prettierrc
+.prettierignore
+
+# Ignore dev environment
+node_modules/
+coverage/
+dist/ # (only if you don't build manually — otherwise, remove this)
+
+# Ignore misc
+*.log
+*.md~
+*.tsbuildinfo
+
+# Ignore editor settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

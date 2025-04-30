@@ -1,21 +1,39 @@
 {
-  "name": "sa-id-validator",
+  "name": "@tk007/sa-id-validator",
   "version": "1.0.0",
-  "description": "A simple TypeScript package to validate South African ID numbers",
+  "description": "A simple TypeScript library to validate South African ID numbers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "echo \"No tests yet\"",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/tkmateka/sa-id-validator.git"
   },
-  "keywords": ["south-africa", "id", "validator", "typescript"],
-  "author": "Tukiso Mateka",
+  "keywords": [
+    "south-africa",
+    "id-number",
+    "validation",
+    "typescript",
+    "identity",
+    "validator"
+  ],
+  "author": "Tukiso Mateka <tkmateka@example.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkmateka/sa-id-validator/issues"
+  },
+  "homepage": "https://github.com/tkmateka/sa-id-validator#readme",
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.4.0"
   }
 }
