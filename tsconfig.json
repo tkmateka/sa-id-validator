@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES2017",        // <--- changed from ES6 to ES2017
+      "module": "CommonJS",
+      "declaration": true,
+      "outDir": "./dist",
+      "strict": true,
+      "lib": ["ES2017"],          // <--- add this line
+      "esModuleInterop": true
+    },
+    "include": ["src"]
+  }
+  
